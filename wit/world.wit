@@ -1,0 +1,7 @@
+package jabratech:component-active-instruments;
+
+world component-active-instruments {
+    import jabratech:component-agg-ticker/agg-ticker;
+
+    export wasi:http/incoming-handler@0.2.0;
+}
